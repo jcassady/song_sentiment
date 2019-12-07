@@ -14,4 +14,13 @@ class Song
   def score
     @analyzer.score @lyrics
   end
+
+  def lyrics_sentiment
+    ratings = []
+    lines = @lyrics.split("\n").reject!(&:empty?)
+    lines.each do |line|
+      ratings << @analyzer.sentiment(line)
+    end
+    lines.zip(ratings)
+  end
 end
