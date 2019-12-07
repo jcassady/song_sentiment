@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    sentimental (1.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sentimental
+
+BUNDLED WITH
+   2.0.2
