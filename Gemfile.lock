@@ -1,12 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    gemoji (3.0.1)
     sentimental (1.5.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  gemoji
   sentimental
 
 BUNDLED WITH
